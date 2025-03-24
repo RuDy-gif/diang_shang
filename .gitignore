@@ -1,103 +1,23 @@
-*.yml
-*.iml
+# Maven 生成目录
+target/
+build/
 *.class
-# ================================
-# 忽略编译生成的文件和目录
-# ================================
-
-# Maven 构建生成的目录
-/target/
-
-# Gradle 构建生成的目录
-/build/
-.gradle/
-
-# ================================
-# 忽略 IDE 配置文件
-# ================================
-
-# IntelliJ IDEA
-/.idea/
-*.iml
-*.ipr
-*.iws
-
-# Eclipse
-/.classpath
-/.project
-/.settings/
-
-# NetBeans
-/nbproject/private/
-/build/
-/dist/
-/nbbuild/
-/nbdist/
-/.nb-gradle/
-
-# VS Code
-/.vscode/
-
-# ================================
-# 忽略操作系统生成的文件
-# ================================
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Linux
-*~
-
-# ================================
-# 忽略日志和临时文件
-# ================================
-
-# 日志文件
-*.log
-/logs/
-
-# 临时文件
-*.tmp
-*.bak
-*.swp
-*.swo
-
-# ================================
-# 忽略敏感信息文件
-# ================================
-
-# 环境配置文件（如果包含敏感信息）
-.env
-*.env
-*.properties
-*.yml
-*.yaml
-
-# ================================
-# 其他常见忽略项
-# ================================
-
-# JAR 文件
 *.jar
-
-# WAR 文件
 *.war
 
-# EAR 文件
-*.ear
+# IDE 配置文件
+.idea/
+*.iml
+.classpath
+.project
+.settings/
 
-# 缓存文件
-/cache/
+# 编译生成的源码目录
+generated-sources/
+generated-test-sources/
+annotations/
 
-# Local configuration files
-/local.properties
-
-# ================================
-# 可选：忽略特定工具的文件
-# ================================
-
-# Docker
-.docker/
+# 其他通用忽略项
+*.log
+*.tmp
+*.swp
